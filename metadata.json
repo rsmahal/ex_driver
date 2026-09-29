@@ -1,0 +1,6 @@
+{
+  "name": "EX Driver",
+  "description": "Fast-paced arcade 3D racing game with swipe steering, automatic throttle, AI opponents, and exciting obstacle-dodging tracks.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

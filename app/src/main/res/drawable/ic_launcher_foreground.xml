@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Car Body Shadow / Glow Base -->
+    <path
+        android:fillColor="#50000000"
+        android:pathData="M24,76 L84,76 C86,76 87,79 84,81 L24,81 C21,79 22,76 24,76 Z" />
+
+    <!-- Car Rear Wing / Spoiler -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M28,42 L80,42 L82,46 L26,46 Z" />
+    <path
+        android:fillColor="#334155"
+        android:pathData="M35,46 L38,52 L42,52 L40,46 Z" />
+    <path
+        android:fillColor="#334155"
+        android:pathData="M68,46 L70,52 L74,52 L72,46 Z" />
+
+    <!-- Main Aerodynamic Body Chassis -->
+    <path
+        android:pathData="M30,72 L26,58 C26,53 32,49 42,48 L66,48 C76,49 82,53 82,58 L78,72 C78,75 75,76 72,76 L36,76 C33,76 30,75 30,72 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="48"
+                android:endX="54"
+                android:endY="76"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF0055" />
+                <item android:offset="0.6" android:color="#FF3366" />
+                <item android:offset="1.0" android:color="#CC0040" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Cockpit / Windshield Glass -->
+    <path
+        android:pathData="M36,54 L44,46 L64,46 L72,54 L68,60 L40,60 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="46"
+                android:endX="54"
+                android:endY="60"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00E5FF" />
+                <item android:offset="1.0" android:color="#0077B6" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Racing Center Stripe -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M51,44 L57,44 L57,76 L51,76 Z" />
+    <path
+        android:fillColor="#FFD166"
+        android:pathData="M48,44 L50,44 L50,76 L48,76 Z" />
+    <path
+        android:fillColor="#FFD166"
+        android:pathData="M58,44 L60,44 L60,76 L58,76 Z" />
+
+    <!-- Wheels (Tires) -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M22,54 L27,54 L27,68 L22,68 Z" />
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M81,54 L86,54 L86,68 L81,68 Z" />
+
+    <!-- Neon Rim Accents -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M22,59 L24,59 L24,63 L22,63 Z" />
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M84,59 L86,59 L86,63 L84,63 Z" />
+
+    <!-- Glowing Headlights / Neon Splitters -->
+    <path
+        android:fillColor="#00FFFF"
+        android:pathData="M28,68 L36,70 L34,74 L27,72 Z" />
+    <path
+        android:fillColor="#00FFFF"
+        android:pathData="M80,68 L72,70 L74,74 L81,72 Z" />
+
+    <!-- EX Driver Badge -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M44,68 L50,68 L50,70 L46,70 L46,71 L49,71 L49,73 L46,73 L46,74 L50,74 L50,75 L44,75 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M53,68 L55,68 L57,71 L59,68 L61,68 L58,72 L62,75 L60,75 L57,72 L55,75 L53,75 L56,71 Z" />
+</vector>
